@@ -5842,7 +5842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 133.35 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7555,7 +7555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8070,10 +8070,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c06b5f40-4e0f-40c0-9c20-f2a48fc188c6")
+			(uuid "c06b5f40-4e0f-40c0-9c20-f2a48fc188c7")
 		)
 		(pin "2"
-			(uuid "395a7592-f977-41af-8236-07353be1dd79")
+			(uuid "395a7592-f977-41af-8236-07353be1dd7a")
 		)
 		(instances
 			(project "tech_pcb"
