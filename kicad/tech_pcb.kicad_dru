@@ -6,3 +6,12 @@
 	(constraint text_height (min 0.75mm))
 	(constraint text_thickness (min 0.1mm))
 )
+(rule "Minimum connection width 1"
+	(constraint connection_width (min 0.1524mm))
+)
+(rule "Minimum drill size 1"
+	(constraint hole_size (min 0.254mm))
+)
+(rule "Minimum annular width 1"
+	(constraint annular_width (min 0.127mm))
+)
