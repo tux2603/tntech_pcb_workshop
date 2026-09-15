@@ -90,7 +90,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_55557550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -119,11 +119,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./gerbers")
+			(outputdirectory "")
 		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
@@ -6195,7 +6195,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "TN Tech PCB Workshop\nPrototype v0.2"
+	(gr_text "TN Tech PCB Workshop\nPrototype v1.0"
 		(at 34.29 45.8 0)
 		(layer "B.SilkS")
 		(uuid "104b4acc-03a2-4a10-a0ae-62cc4d9a5b95")
