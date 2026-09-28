@@ -12,6 +12,7 @@
 (rule "Minimum annular width 1"
 	(constraint annular_width (min 0.127mm))
 )
-(rule "Minimum drill size 1"
-	(constraint hole_size (min 0.254mm))
+(rule "Via style 1"
+	(constraint via_diameter (min 0.45mm) (max 2.5mm))
+	(constraint hole_size (min 0.3mm) (max 2mm))
 )
